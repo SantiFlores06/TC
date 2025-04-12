@@ -1,0 +1,12 @@
+Fechas (en distintos formatos)
+Formato DD/MM/AAAA: /(0[1-9]|[12][0-9]|3[01])\/(0[1-9]|1[0-2])\/([0-9]{4})/gm
+
+Formato AAAA-MM-DD (ISO): /([0-9]{4})-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])/gm
+
+Correos Electrónicos : [a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}
+
+CUIL/CUIT (Argentina): (20|23|24|27|30|33|34)[-]([\d]{8})[-]([\d]{1})
+
+
+DNI (Argentina): ([\d]{7,8})
+
