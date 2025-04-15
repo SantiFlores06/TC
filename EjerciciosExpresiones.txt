@@ -23,4 +23,17 @@ Comentario de una línea (estilo C/Java): \/\/.*
 Comentario de bloque (estilo C/Java): \/\*[\s\S]*?\*\/
 
 Contraseña segura (mínimo 8 caracteres, una mayúscula, una minúscula, un número y un símbolo)**: 
+(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?])[A-Za-z\d!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]{8,}
 
+Nombres y Apellidos (letras, espacios y tildes)**:[A-Za-zÀ-ÖØ-öø-ÿ\s]+
+
+URLs:
+
+Direcciones IP:(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)
+
+Matrículas de autos: 
+[A-Z]{2}\d{3}[A-Z]{2}
+[A-Z]{3}\d{3}
+
+
+Números de tarjeta de crédito:
